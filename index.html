@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Dashboard project</title>
 </head>
+
 <body>
     <!--LEFT MENU-->
     <div class="menu">
@@ -29,24 +31,171 @@
     <!--RIGHT CONTENT-->
     <div class="right-side">
         <div class="header">
-            <div class="search-bar">
-                <form action="" method="get">
-                    <input type="button" value="">
-                    <input type="text" name="search-box" id="search-box">
-                </form>
-            </div>
+            <form class="search-bar" action="" method="get">
+                <button><img src="src/icon/magnify.svg" alt=""></button>
+                <input type="search" name="search-box" id="search-box">
+            </form>
             <div class="user-info">
-                <a href=""><img src="" alt="bell"></a>
-                <a href=""><img src="" alt="avatar"></a>
+                <a href=""><img src="src/icon/bell-ring-outline.svg" alt="bell"></a>
+                <a href="">
+                    <div class="avatar avatar-1"></div>
+                </a>
                 <div class="username">Morgan Oakley</div>
             </div>
-            <div class="welcome-user"></div>
-            <div class="head-buttons"></div>
+            <div class="welcome-user">
+                <a href="">
+                    <div class="avatar avatar-1"></div>
+                </a>
+                <div class="hello-username">
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+            </div>
+            <div class="head-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
-        <div class="projects"></div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
 
+        <!--CONTENT -->
+
+        <div class="content">
+            <div class="project-container">
+                <h2 class="content-title">Your Projects</h2>
+                <div class="projects">
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Super Project</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae excepturi reiciendis
+                                natus,
+                                expedita quis aspernatur.</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Almost Super Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto libero sed, hic
+                                veniam harum enim eligendi iure voluptas totam dolores sapiente neque a unde voluptates
+                                voluptatem corporis ullam distinctio ad.</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Cool App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quidem voluptatibus
+                                veniam sapiente, architecto, et ipsum cum consectetur vero neque hic rerum, repellendus
+                                beatae unde!</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>So bad Program</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Something easy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae excepturi reiciendis
+                                natus,
+                                expedita quis aspernatur. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Cool Web App</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, ratione.</p>
+                        </div>
+                        <div class="card-icons">
+                            <a href=""><img class="card-icon" src="src/icon/star-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/eye-plus-outline.svg" alt=""></a>
+                            <a href=""><img class="card-icon" src="src/icon/share-variant-outline.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <h2 class="content-title">Announcements</h2>
+                <div class="announcements-content right-container">
+                    <div class="anno">
+                        <h4>Site Maintenance</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem recusandae veritatis sunt.
+                        </p>
+                    </div>
+                    <div class="anno"><h4>Community Share Day</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus nemo voluptatum recusandae.</p></div>
+                    <div class="anno"><h4>Updated Privacy Policy</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, atque in?
+                        </p></div>
+                </div>
+            </div>
+            <div class="trending">
+                <h2 class="content-title">Trending</h2>
+                <div class="trending-content right-container">
+                    <div class="trending-item">
+                        <a href="">
+                            <div class="avatar avatar-2"></div>
+                        </a>
+                        <a href="">
+                            <p class="usernick">@tegan</p>
+                            <p>World Peace Builder</p>
+                        </a>
+                    </div>
+                    <div class="trending-item">
+                        <a href="">
+                            <div class="avatar avatar-1"></div>
+                        </a>
+                        <a href="">
+                            <p class="usernick">@morgan</p>
+                            <p>Super Cool Project</p>
+                        </a>
+                    </div><div class="trending-item">
+                        <a href="">
+                            <div class="avatar avatar-3"></div>
+                        </a>
+                        <a href="">
+                            <p class="usernick">@kendall</p>
+                            <p>Life Changing App</p>
+                        </a>
+                    </div><div class="trending-item">
+                        <a href="">
+                            <div class="avatar avatar-4"></div>
+                        </a>
+                        <a href="">
+                            <p class="usernick">@alex</p>
+                            <p>No Traffic Maker</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
